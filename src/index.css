@@ -1,0 +1,9 @@
+       /* src/index.css */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    /* Add this to style the toast */
+    .Toastify__toast-container {
+      z-index: 9999; /* Ensure toasts are on top */
+    }
